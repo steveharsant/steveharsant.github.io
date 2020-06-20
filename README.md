@@ -8,10 +8,18 @@ The javascript files here are for a specific site, simply copy/pasting into your
 
 ## Usage
 
-## newsletter_subscribe.js
+### newsletter_subscribe.js
 
 Place this in a `code` block and ensure the script is called in the `head` inject section.
 
 ```html
 <div id="newsletter_subscribe_form"></div>
+```
+
+### contact_form.js
+
+Place this in a `code` block and ensure the script is called in the `head` inject section.
+
+```html
+<div id="embedded_contact_form"></div>
 ```
