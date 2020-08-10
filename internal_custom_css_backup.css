@@ -12,8 +12,12 @@ div#block-yui_3_17_2_1_1592402440415_9402.sqs-block.summary-v2-block.sqs-block-s
   display:none;
 }
 
-div#block-868a04881ec4d65459a5.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(1) {
+div#block-868a04881ec4d65459a5.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(1), div#block-868a04881ec4d65459a5.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(2) {
   display:none;
+}
+
+div#block-836d54db8bdb4d052bb9.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(1){
+  display: none
 }
 
 /*  Top banner override - Thumbnail image */
