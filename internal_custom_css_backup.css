@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden; 
+}
+
+/* Hide first post on Featured Arictles section on right hand side */
+div#block-yui_3_17_2_1_1592402440415_9402.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(1) {
+  display:none;
+}
+
+div#block-868a04881ec4d65459a5.sqs-block.summary-v2-block.sqs-block-summary-v2 .sqs-block-content .summary-block-wrapper .summary-item-list-container .summary-item-list .summary-item:nth-child(1) {
+  display:none;
+}
+
+/*  Top banner override - Thumbnail image */
+div#page-section-5f311e00701690209e4894ec.sqs-row.col.sqs-block.sqs-block-content.summary-block-wrapper.summary-item-list-container.summary-item-list.summary-item.summary-thumbnail-outer-container.summary-thumbnail-container.img-wrapper.summary-thumbnail-image {
+  left: 0;
+}
+
+/*  Top banner override - Thumbnail image */
+#page-section-5f311e00701690209e4894ec {
+  margin-top: -2vw;
+  margin-left: -4vw;
+  margin-right: -4vw;
+}
+
+/*  Top banner override - Center text */
+#page-section-5f311e00701690209e4894ec .summary-content{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 99%;
+}
+
+/*  Top banner override - Header text */
+#page-section-5f311e00701690209e4894ec a{
+  font-family: antique-olive-nord;
+  font-style: normal;
+  font-size: calc(5.8vw + 1rem);
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 7px rgba(0,0,0,1);
+}
+
+/*  Top banner override - Subtext */
+#page-section-5f311e00701690209e4894ec p{
+  font-size: calc(1.8vw + 1rem);
+  font-weight: 600;
+  text-shadow: 0px 0px 7px rgba(0,0,0,1);
+}
+
+/*  Top banner override - Read more */
+#page-section-5f311e00701690209e4894ec .summary-read-more-link {
+  font-size: calc(0.8vw + 1rem);
+  text-shadow: 0px 0px 7px rgba(0,0,0,1);
+  padding-top: 25%;
+}
