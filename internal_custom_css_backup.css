@@ -34,12 +34,9 @@ div#page-section-5f311e00701690209e4894ec.sqs-row.col.sqs-block.sqs-block-conten
 
 /*  Top banner override - Center text */
 #page-section-5f311e00701690209e4894ec .summary-content{
-  margin: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 99%;
+  top: 30%;
+  transform: translateY(-50%);
 }
 
 /*  Top banner override - Header text */
@@ -63,7 +60,10 @@ div#page-section-5f311e00701690209e4894ec.sqs-row.col.sqs-block.sqs-block-conten
 #page-section-5f311e00701690209e4894ec .summary-read-more-link {
   font-size: calc(0.8vw + 1rem);
   text-shadow: 0px 0px 7px rgba(0,0,0,1);
-  padding-top: 25%;
+  padding-top: 13%;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 
 /* Blog Page overrides */
